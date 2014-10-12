@@ -85,8 +85,9 @@ public class JdbcDemo {
 		querySql();
 		delete();
 		//
+		//7th modify by eclipse for testing add branch 
 		querySql();
-		//6th  modify by github.com
+		//6th modify by github.com
 		insert();
 		querySql();
 	}
