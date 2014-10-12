@@ -84,6 +84,7 @@ public class JdbcDemo {
 		// TODO 自动生成的方法存根
 		querySql();
 		delete();
+		
 		querySql();
 		
 		insert();
