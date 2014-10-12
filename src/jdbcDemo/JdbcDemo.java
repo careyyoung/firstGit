@@ -86,7 +86,7 @@ public class JdbcDemo {
 		delete();
 		//
 		querySql();
-		//
+		//6th  modify by github.com
 		insert();
 		querySql();
 	}
