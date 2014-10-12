@@ -23,7 +23,7 @@ public class JdbcDemo {
 			
 			System.out.println("delete success~");
 		} catch (ClassNotFoundException | SQLException e) {
-			// TODO ×Ô¶¯Éú³ÉµÄ catch ¿é
+			// TODO è‡ªåŠ¨ç”Ÿæˆçš„ catch å—
 			e.printStackTrace();
 		}
 		
@@ -42,7 +42,7 @@ public class JdbcDemo {
 			System.out.println("insert success~");
 			
 		} catch (ClassNotFoundException | SQLException e) {
-			// TODO ×Ô¶¯Éú³ÉµÄ catch ¿é
+			// TODO è‡ªåŠ¨ç”Ÿæˆçš„ catch å—
 			e.printStackTrace();
 		}
 	}
@@ -72,7 +72,7 @@ public class JdbcDemo {
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
 		} catch (SQLException e) {
-			// TODO ×Ô¶¯Éú³ÉµÄ catch ¿é
+			// TODO è‡ªåŠ¨ç”Ÿæˆçš„ catch å—
 			e.printStackTrace();
 		}		
 	}
@@ -81,10 +81,10 @@ public class JdbcDemo {
 	
 	
 	public static void main(String[] args) {
-		// TODO ×Ô¶¯Éú³ÉµÄ·½·¨´æ¸ù
+		// TODO è‡ªåŠ¨ç”Ÿæˆçš„æ–¹æ³•å­˜æ ¹
 		querySql();
 		delete();
-		
+		//
 		querySql();
 		
 		insert();
